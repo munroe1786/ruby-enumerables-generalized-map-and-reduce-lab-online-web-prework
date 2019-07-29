@@ -1,6 +1,6 @@
 def map(array)
     array.map do |n| 
-      -1 * n
+      "#{n * -1}"
     end
 end
 
