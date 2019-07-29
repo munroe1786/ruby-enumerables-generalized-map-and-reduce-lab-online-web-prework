@@ -1,5 +1,5 @@
 def map(array)
-    array.each do |n| 
+    array.map do |n| 
       -1 * n
     end
 end
