@@ -1,6 +1,6 @@
 def map(array)
     array.each do |n| 
-      n * -1
+      -1 * n
     end
 end
 
