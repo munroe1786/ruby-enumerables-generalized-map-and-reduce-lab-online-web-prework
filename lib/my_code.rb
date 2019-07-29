@@ -1,6 +1,6 @@
 def map(array)
   new_array = [ ]
-    array.each do |n| 
+    array.map do |n| 
       new_array << "#{n * -1}"
     end
     new_array
