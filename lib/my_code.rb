@@ -5,7 +5,7 @@ def map(array)
 end
 
 def map(array)
-  array.map{|n| n}
+  array.map{|n| n *1}
 end
 
 def map(array)
