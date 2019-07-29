@@ -1,7 +1,9 @@
 def map(array)
-    array.map do |n| 
-      "#{-1 * n}"
+  new_array = [ ]
+    array.each do |n| 
+      new_array << n * -1
     end
+    new_array
 end
 
 def map(array)
